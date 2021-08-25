@@ -11,9 +11,7 @@ const Navigation = () => (
         <li><Link to="/scool-staus">학교 현황</Link></li>
         <li><Link to="/join">회원가입</Link></li>
         </ol>
-
     </nav>
-   
 )
 
 export default Navigation

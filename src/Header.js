@@ -11,8 +11,7 @@ const Header = ()=> (
                         src="https://t1.daumcdn.net/cfile/tistory/99CD014B5BD01FA412"
                         alt="logo"/>
                     </Logo>
-                    <Search><h1>TripN<p>Make your trip!</p>                  
-                    </h1>
+                    <Search><h1>TripN</h1>
                   </Search>
                 </Element>
             </Container>

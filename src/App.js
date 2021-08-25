@@ -6,15 +6,16 @@ import Join from './components/Join';
 import OnlineProfile from './components/OnlineProfile';
 import SchoolStaus from './components/SchoolStaus';
 import Home from './components/Home';
-// import Navigation from './components/Navigation';
+import Navigation from './components/Navigation';
 import Header from './Header';
-import Navigations from './Navigations';
+import BlogNavigation from './BlogNavigation';
+import Basic from './modern-javascript/chap-01-basic/Basic';
 
 const App = () => (
   <>
-
    <Header/>
-   <Navigations/>
+   <BlogNavigation/>
+   {/* <Navigation/> */}
    <Switch>
    <Route exact path='/'component = {Home}/>
    <Redirect from='/home'to = {'/'}/>
@@ -24,6 +25,7 @@ const App = () => (
    <Route exact path='/scool-staus'component = {SchoolStaus}/>
    <Route exact path='/join'component = {Join}/>
    <Route exact path='/header'component = {Header}/>
+   <Route exact path='/basic'component = {Basic}/>
    </Switch>
    </>
   );
