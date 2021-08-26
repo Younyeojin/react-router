@@ -9,7 +9,9 @@ const BlogNavigation = () => (
             <NavItem><Link to="/course-register">과목 등록2</Link></NavItem>
             <NavItem><Link to="/Login">로그인</Link></NavItem>
             <NavItem><Link to="/online-profile">프로필</Link></NavItem>
-            <NavItem><Link to="/scool-staus">학교 현황</Link></NavItem>
+            <NavItem><Link to="/school-staus">학교 현황</Link></NavItem>
+            <NavItem><Link to="/join">회원가입</Link></NavItem>
+           
         </NavList>
         <NavList>
             <NavItem><Link to="/basic">Basic</Link></NavItem>

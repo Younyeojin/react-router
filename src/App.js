@@ -10,11 +10,13 @@ import Navigation from './components/Navigation';
 import Header from './Header';
 import BlogNavigation from './BlogNavigation';
 import Basic from './modern-javascript/chap-01-basic/Basic';
+import HomePage from './pages/HomePage';
 
 const App = () => (
   <>
    <Header/>
    <BlogNavigation/>
+   
    {/* <Navigation/> */}
    <Switch>
    <Route exact path='/'component = {Home}/>
@@ -22,11 +24,12 @@ const App = () => (
    <Route exact path='/course-register'component = {CourseRegister}/>
    <Route exact path ='/Login' component = {Login}/>
    <Route exact path='/online-profile'component = {OnlineProfile}/>
-   <Route exact path='/scool-staus'component = {SchoolStaus}/>
+   <Route exact path='/school-staus'component = {SchoolStaus}/>
    <Route exact path='/join'component = {Join}/>
    <Route exact path='/header'component = {Header}/>
    <Route exact path='/basic'component = {Basic}/>
    </Switch>
+   <HomePage/>
    </>
   );
 export default App; 

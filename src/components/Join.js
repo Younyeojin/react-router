@@ -31,14 +31,22 @@ const Join  = () => (
                 </li>
             </ul>
         </form>
-        <h1>회원 가입을 환영합니다</h1>
+        
+    </div>
+);
+
+export default Join
+
+
+
+{/* <h1>회원 가입을 환영합니다</h1>
         <form>
             <ul>
                 <li>
                     <label>
                         아이디: <input type="text" id="user_id" size="1" minlength="4" maxlength="15"/>
                     </label>
-                    {/* <small style="color: red;">4~15자리 이내의 영문과 숫자</small> */}
+                    <small style="color: red;">4~15자리 이내의 영문과 숫자</small>
                 </li>
                 <li>
                     <label>
@@ -59,8 +67,4 @@ const Join  = () => (
                     <input type="submit" value="회원가입"/>
                 </li>
             </ul>
-        </form>
-    </div>
-);
-
-export default Join
+        </form> */}
