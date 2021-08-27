@@ -1,9 +1,6 @@
 ### variable 은 값을 담기 위한 공간이다
-
 ### var대신 let을 사용하는 이유
-
 #### * var은 전역이고 let은 지역이다.
-
 ### ES6 예약어(*로 표시된 단어에 새로운 ECMAScript5)
 abstract	arguments	boolean	break	byte
 case	catch	char	class*	const

@@ -1,16 +1,16 @@
 import React from 'react'
 import { Route, Redirect, Switch } from 'react-router-dom'
-import CourseRegister from './components/CourseRegister';
-import Login from './components/Login';
-import Join from './components/Join';
-import OnlineProfile from './components/OnlineProfile';
-import SchoolStaus from './components/SchoolStaus';
-import Home from './components/Home';
-import Navigation from './components/Navigation';
-import Header from './Header';
-import BlogNavigation from './BlogNavigation';
+import {BlogNavigation, 
+        Header, 
+        CourseRegister,
+        Login, 
+        Join, 
+        Home, 
+        OnlineProfile, 
+        SchoolStaus, 
+        Navigation } from 'components/index'
 import Basic from './modern-javascript/chap-01-basic/Basic';
-import HomePage from './pages/HomePage';
+import {HomePage} from 'pages/index';
 
 const App = () => (
   <>
