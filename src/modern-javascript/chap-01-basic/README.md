@@ -35,3 +35,17 @@ while	with	yield
 #### 5. underfined
 #### 6. symbol
 #### 7. JSON {}
+
+
+## 객체는 Object / JSON이다.
+### 모던 방식이 일반적이며 이를 객체 리터럴(object literal)이라고 부른다.
+### 빈 객체를 만드는 방법에는 두가지 방법이 있다.
+#### dot notation : 객체에 새 속성 추가
+#### bracket notation : 여러 단어로 이뤄진 속성 추가
+
+## 객체의 복사
+### 항등 연산자_equality(==)
+### 완전 항등 연산자_strict equality(===)
+
+
+ 
